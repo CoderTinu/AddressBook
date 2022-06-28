@@ -1,6 +1,6 @@
 package AddressBook;
 
-public class Contacts {
+public class Contact {
 	 private String firstName;
 	    private String lastName;
 	    private String address;
@@ -9,6 +9,17 @@ public class Contacts {
 	    private int zip;
 	    private long phone;
 	    private String email;
+	    
+	    public Contact(String first_name, String last_name, String address, String city, String state, int zip, long phone, String email_id) {
+	        this.firstName = first_name;
+	        this.lastName = last_name;
+	        this.address = address;
+	        this.city = city;
+	        this.state = state;
+	        this.zip = zip;
+	        this.phone = phone;
+	        this.email = email_id;
+	    }
 	    
 	    
 	    
